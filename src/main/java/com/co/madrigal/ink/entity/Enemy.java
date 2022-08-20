@@ -9,7 +9,7 @@ public class Enemy extends Character{
     private int totalDamange;
 
     public Enemy(String name, int lifePoints, int stamina, int manaPoints, int level) {
-        super(name, lifePoints, stamina, manaPoints, level);
+        super(name, lifePoints, stamina, manaPoints, level,0);
     }
 
     public int getAreaBonus() {

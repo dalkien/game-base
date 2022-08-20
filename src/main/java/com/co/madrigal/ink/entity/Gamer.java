@@ -9,8 +9,8 @@ public class Gamer extends Character{
     private Item[] itemsToUse;
     private int totalDamange;
 
-    public Gamer(String name, int lifePoints, int stamina, int manaPoints, int level) {
-        super(name, lifePoints, stamina, manaPoints, level);
+    public Gamer(String name, int lifePoints, int stamina, int manaPoints, int level,int nextLevel) {
+        super(name, lifePoints, stamina, manaPoints, level, nextLevel);
     }
 
     public String getClasse() {
