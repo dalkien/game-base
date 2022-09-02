@@ -1,6 +1,7 @@
 package com.co.madrigal.ink;
 
 import com.co.madrigal.ink.controller.Aventur;
+import com.co.madrigal.ink.controller.BuscaMinas;
 
 import java.util.Scanner;
 
@@ -14,6 +15,8 @@ public class ApplicationMain {
             aventur.startGame();
         }else {
             System.out.println("Bienvenido a Busca minas");
+            BuscaMinas minas = new BuscaMinas();
+            minas.startGame();
         }
     }
 }
